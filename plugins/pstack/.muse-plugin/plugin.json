@@ -291,6 +291,11 @@
         "enabledDefault": true
       },
       {
+        "id": "statechart-explain",
+        "path": "skills/statechart-explain/SKILL.md",
+        "enabledDefault": true
+      },
+      {
         "id": "swarm",
         "path": "skills/swarm/SKILL.md",
         "enabledDefault": true
