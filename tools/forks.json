@@ -258,6 +258,12 @@
       "since": "0.9.41",
       "upstream": "not-proposed"
     },
+    "plugins/pstack/skills/statechart/SKILL.md": {
+      "kind": "policy",
+      "why": "Points the hand-off to the port-only statechart-explain skill when the reader must understand the behavior or the chart has more than about 20 arrows.",
+      "since": "0.9.133",
+      "upstream": "not-proposed"
+    },
     "plugins/pstack/skills/statechart/scripts/backends/cfg.ts": {
       "kind": "policy",
       "why": "Reads the section keyword from `keyword`, not `key`, because the plugin directory's scanner reads a `key` identifier beside a file read as a credential read (MCP_FORWARDS_CREDENTIAL_ENV).",
